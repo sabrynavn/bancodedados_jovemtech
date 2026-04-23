@@ -1,7 +1,3 @@
--- Playbook banco de dados
-
---1 
-
 
 CREATE TABLE IF NOT EXISTS clients(
   id  SERIAL primary key,
