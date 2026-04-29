@@ -22,6 +22,14 @@ inner join artist ar
 on al.artist_id = ar.artist_id
 
 
+Select c."first_name" , c."last_name"
+from "customer" c
+left join "invoice" i
+ on c."customer_id"= i."customer_id"
+ where i."invoice_id" IS NULL;
+
+
+
 
 
 
